@@ -30,7 +30,7 @@ class WorkWithFile(WorkWith2Files):
                 country_names_and_data.get(country_name).append(row)
 
         for name, data_ in country_names_and_data.items():
-            file_path = f'csv_files/country_accounts_file/{name} account.csv'
+            file_path = f'work_with_csv_files/csv_files/country_accounts_file/{name} account.csv'
 
             self.make_csv_file(file_path, header, data_)
 
