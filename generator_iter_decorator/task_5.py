@@ -8,7 +8,7 @@ Funksiyaga beriladigan argumentni tekshirish uchun dekorator yozing.
 
 def my_funct(funct):
     def inner_funct(variable):
-        if type(variable) is not list:
+        if not isinstance(variable, list):
             return 'Please send only list'
 
         return funct(variable)

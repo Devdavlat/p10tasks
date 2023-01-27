@@ -7,13 +7,12 @@ bunda quyidagi funksiyallarda ishlating va tegishli natija qaytaring.
 
 def only_even_parametres(funct):
     def inner_funct(*args):
-        even = True
+
         for i in args:
             if i % 2 != 0:
-                even = False
                 return "please enter even number"
-        if even:
-            return funct(*args)
+
+        return funct(*args)
 
     return inner_funct
 
