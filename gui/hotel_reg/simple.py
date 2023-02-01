@@ -30,7 +30,8 @@ def read_csv_file():
 def ged_price():
     price_of_per_day = 100
     price = dos_entry.get()
-    messagebox.showinfo("Price", f'{price * price_of_per_day}')
+    result = int(price) * price_of_per_day
+    messagebox.showinfo("Price", f'{result}$')
 
 
 def add():
