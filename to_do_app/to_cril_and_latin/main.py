@@ -20,7 +20,7 @@ def to_version_func():
 
 window = tk.Tk()
 window.title('Latin and Kiril')
-window.geometry('500x300')
+window.geometry('500x350')
 version = {'L': 'to latin', 'K': 'to kiril'}
 
 # Text entry in list box
