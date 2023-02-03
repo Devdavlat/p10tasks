@@ -8,18 +8,6 @@ languages_list = choices
 
 languages = [language[1] for language in languages_list]
 
-"""
-from translate import Translator
-In [2]: translator= Translator(to_lang="zh")
-In [3]: translation = translator.translate("This is a pen.")
-"""
-
-
-# Translater func
-
-
-# def make_waring(text):
-
 
 def translate_text():
     text = text_entry.get()
