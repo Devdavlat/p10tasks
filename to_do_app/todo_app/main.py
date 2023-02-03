@@ -68,6 +68,5 @@ add_button.pack()
 add_button = tk.Button(window, text="Show done task", width=48, command=load_tasks)
 add_button.pack()
 
-
 if __name__ == "__main__":
     window.mainloop()
